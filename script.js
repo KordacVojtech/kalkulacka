@@ -20,6 +20,16 @@ equals.addEventListener('click', function(){
     let value = eval(display.value);
     display.value = value;
 })
+
+procent.addEventListener('click', function(){
+    let value = eval((display.value)/100);
+    display.value = value;
+})
+    
+
+    
+    
+
     
 
     
