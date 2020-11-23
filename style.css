@@ -1,0 +1,81 @@
+.container, .toptopRow, .topRow, .midRow, .botRow, .botbotRow, .input{
+    display: grid;
+}
+
+.toptopRow, .topRow, .midRow, .botRow{
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.botbotRow{
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.orangeBtn{
+    background-color:rgb(255, 166, 0);
+    color: whitesmoke;
+}
+.orangeBtn:hover{
+    background-color:rgb(179, 116, 0);
+    color: whitesmoke;
+}
+
+.greyBtn{
+    background-color:rgb(156, 154, 154);
+}
+.greyBtn:hover{
+    background-color:rgb(112, 111, 111);
+}
+
+.darkBtn{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.darkBtn:hover{
+    background-color: rgb(27, 27, 27);
+}
+
+.container{
+    width: 10rem;
+    height: 15rem;
+    padding: 0.5rem;
+    padding-right: 3rem;
+    background-color: black;
+    border-radius: 4%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+}
+
+.input{
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    
+}
+
+button{
+    border-radius: 20%;
+    outline: none;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.toptopRow{
+    margin-top: 0.1rem;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 154, 154);
+}
